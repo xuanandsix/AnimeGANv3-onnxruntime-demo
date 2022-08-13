@@ -3,15 +3,18 @@ This is the onnxruntime inference code for AnimeGANv3. Official code: https://gi
 
 It includes face detection (yolov5-face，or any other way) to corp face for portrait stylization. 
 
-## test portrait sketch
+## test onnxruntime demo 
+For example, portrait sketch. For other style, just replace the onnx model.
 ```
 python demo_onnx.py --useFace
 ```
-It also works well for panoramic portraits. Without use face detection.
+It also works well for panoramic image. Without use face detection.
 ```
 python demo_onnx.py
 ```
-| input | useFace| without useFace|
+| input | useFace| panoramic image|
 | :-: |:-:| :-:|
-|<img src="https://github.com/xuanandsix/AnimeGANv3-onnxruntime-demo/raw/main/portrait.jpg" >|<img src="https://github.com/xuanandsix/DIS-onnxruntime-and-tensorrt-demo/raw/main/imgs/output_onnx2.png" >||<img src="https://github.com/xuanandsix/DIS-onnxruntime-and-tensorrt-demo/raw/main/imgs/output_onnx1.png" >||
+|<img src="https://github.com/xuanandsix/AnimeGANv3-onnxruntime-demo/raw/main/portrait.jpg" height="60%" width="60%">|<img src="https://github.com/xuanandsix/AnimeGANv3-onnxruntime-demo/blob/main/imgs/output_onnx.png" height="60%" width="60%">|<img src="https://github.com/xuanandsix/AnimeGANv3-onnxruntime-demo/raw/main/imgs/output_onnx1.png" height="60%" width="60%">|
+|<img src="https://github.com/xuanandsix/AnimeGANv3-onnxruntime-demo/raw/main/body.jpg" height="60%" width="60%">|<img src="https://github.com/xuanandsix/AnimeGANv3-onnxruntime-demo/blob/main/imgs/output_onnx3.png" height="60%" width="60%" >|<img src="https://github.com/xuanandsix/AnimeGANv3-onnxruntime-demo/raw/main/imgs/output_onnx2.png" height="60%" width="60%">|
+
 
