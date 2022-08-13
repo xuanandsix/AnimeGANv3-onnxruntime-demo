@@ -1,7 +1,7 @@
 # AnimeGANv3-onnxruntime-demo
 This is the onnxruntime inference code for AnimeGANv3. Official code: https://github.com/TachibanaYoshino/AnimeGANv3 <br>
 
-It includes face detection (yolov5-face，or any other way) to corp face for portrait stylization. 
+It includes face detection (yolov5-face，or using any other model) to corp face for portrait stylization. 
 
 ## test onnxruntime demo 
 For example, portrait sketch. For other style, just replace the onnx model.
