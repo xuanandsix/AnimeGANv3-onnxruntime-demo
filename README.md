@@ -4,7 +4,10 @@ This is the onnxruntime inference code for AnimeGANv3. Official code: https://gi
 It includes face detection (yolov5-face，or using any other model) to corp face for portrait stylization. 
 
 ## test onnxruntime demo 
-For example, portrait sketch. For other style, just replace the onnx model.
+Download yolov5-s face detection onnx model to models path from https://pan.baidu.com/s/1gQuKiVkRiKB1aBCmghbRng (password:w1gr).
+
+For example, portrait sketch. And for other style, just replace the onnx model.
+
 ```
 python demo_onnx.py --useFace
 ```
